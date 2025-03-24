@@ -1,0 +1,44 @@
+///
+/// Section Footer
+///
+
+/**
+ * Let's have fun :)
+ * ============================================================== */
+
+/**
+  * Rainbow animated background
+  */
+
+
+.activate-rainbow:hover{
+	//cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌈</text></svg>") 16 0,auto; /*!emojicursor.app*/
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🪩</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+div.is-style-section-footer:has(.activate-rainbow:hover) {
+	background: linear-gradient(
+		124deg,
+		var(--wp--preset--color--base-2),
+		var(--wp--preset--color--base-2),
+		hsla(215, 100%, 95%, 1),
+		hsla(183, 100%, 93%, 1),
+		hsla(213, 100%, 84%, 1),
+		hsla(214, 100%, 93%, 1),
+		hsla(258, 100%, 94%, 1),
+		hsla(42, 100%, 89%, 1),
+	);
+	background-size: 1300% 1300%;
+	animation: rainbow 10s ease infinite;
+}
+
+@keyframes rainbow {
+	0% {
+		background-position: 0% 82%;
+	}
+	50% {
+		background-position: 100% 19%;
+	}
+	100% {
+		background-position: 0% 82%;
+	}
+}

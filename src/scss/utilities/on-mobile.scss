@@ -1,0 +1,25 @@
+/**
+ * On Mobile
+ */
+
+@use "../base/variables" as *;
+
+@media screen and (max-width: $medium) {
+	.on-mobile-left {
+		justify-content: flex-start !important;
+		text-align: left;
+		> * {
+			justify-content: flex-start !important;
+			text-align: left;
+		}
+	}
+
+	.on-mobile-center {
+		justify-content: center !important;
+		text-align: center;
+	}
+
+	.on-mobile-reverse-order {
+		flex-direction: column-reverse;
+	}
+}

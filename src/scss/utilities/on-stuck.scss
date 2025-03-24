@@ -1,0 +1,32 @@
+/**
+ * On Stuck
+ */
+
+@use "../base/variables" as *;
+
+@media screen and (min-width: $medium) {
+	.on-stuck-has-padding {
+		transition: all 400ms linear;
+
+		&.is-stuck {
+			padding-top: var(--wp--preset--spacing--30);
+		}
+	}
+}
+
+.on-stuck-has-layers {
+	transition: all 200ms linear;
+	> div {
+		transition: all 200ms linear;
+	}
+	&.is-stuck {
+		padding-top: var(--wp--preset--spacing--30);
+	}
+	&.is-top > div {
+		box-shadow: var(--wp--preset--shadow--xx-large);
+	}
+	&.is-behind {
+		//padding-top: var(--wp--preset--spacing--30);
+		opacity: 0.2;
+	}
+}

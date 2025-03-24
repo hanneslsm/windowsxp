@@ -1,0 +1,26 @@
+/**
+ * On Large
+ * For Tablet use $large or $medium
+ */
+
+@use "../base/variables" as *;
+
+@media (min-width: $medium) and (max-width: $large) {
+	.on-large-only-flex-column {
+		flex-direction: column !important;
+	}
+
+	.on-large-only-flex-row {
+		flex-direction: row !important;
+	}
+}
+
+@media (max-width: $large) {
+	.on-large-flex-column {
+		flex-direction: column !important;
+	}
+
+	.on-large-flex-row {
+		flex-direction: row !important;
+	}
+}
