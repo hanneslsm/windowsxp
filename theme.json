@@ -215,74 +215,14 @@
 					"slug": "system-font"
 				},
 				{
-					"fontFace": [
-						{
-							"fontFamily": "Archivo",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/archivo/archivo-600-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "Archivo",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/archivo/archivo-600-italic.woff2"
-							]
-						}
-					],
-					"fontFamily": "Archivo, sans-serif",
-					"name": "Archivo",
-					"slug": "archivo"
+					"fontFamily": "Tahoma, 'Helvetica Neue', sans-serif",
+					"name": "Tahoma",
+					"slug": "tahoma"
 				},
 				{
-					"fontFace": [
-						{
-							"fontFamily": "\"Basier Circle\"",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/basier-circle/basier-circle-700-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Basier Circle\"",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/basier-circle/basier-circle-400-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Basier Circle\"",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/basier-circle/basier-circle-500-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Basier Circle\"",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/basier-circle/basier-circle-400-normal.woff2"
-							]
-						},
-						{
-							"fontFamily": "\"Basier Circle\"",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/basier-circle/basier-circle-600-normal.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"Basier Circle\"",
-					"name": "Basier Circle",
-					"slug": "basier-circle"
+					"fontFamily": "'Trebuchet MS', Tahoma, 'Helvetica Neue', sans-serif",
+					"name": "Trebuchet MS",
+					"slug": "trebuchet"
 				}
 			],
 			"fontSizes": [
@@ -297,7 +237,7 @@
 				{
 					"fluid": false,
 					"name": "medium",
-					"size": "1rem",
+					"size": "11px",
 					"slug": "medium"
 				},
 				{

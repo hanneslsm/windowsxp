@@ -43,6 +43,10 @@ const blockStyles = [
 		block: 'core/paragraph',
 		styles: [ { name: 'prolooks-indicator', label: '🏅 Indicator' } ],
 	},
+	{
+		block: 'core/navigation',
+		styles: [ { name: 'windowsxp-taskbar', label: 'XP Taskbar' } ],
+	},
 ];
 
 blockStyles.forEach( ( { block, styles } ) => {
