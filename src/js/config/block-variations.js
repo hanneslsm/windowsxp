@@ -13,25 +13,23 @@ wp.blocks.registerBlockVariation( 'core/spacer', {
 	},
 } );
 
-
 wp.blocks.registerBlockVariation( 'core/heading', {
 	name: 'title-bar',
 	title: 'Title bar',
 	isDefault: false,
-	description: "A title bar for a window.",
+	description: 'A title bar for a window.',
 	attributes: {
 		level: 2,
-		 className: 'is-variation-title-bar'
+		className: 'is-variation-title-bar',
 	},
 } );
-
 
 wp.blocks.registerBlockVariation( 'core/group', {
 	name: 'notepad-content',
 	title: 'Notepad Content',
 	isDefault: false,
-	description: "The content area for Noteoad.",
+	description: 'The content area for Noteoad.',
 	attributes: {
-		 className: 'is-variation-notepad--content'
+		className: 'is-variation-notepad--content',
 	},
 } );

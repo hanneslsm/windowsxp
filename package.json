@@ -38,5 +38,6 @@
 	},
 	"dependencies": {
 		"gsap": "^3.12.5"
-	}
+	},
+	"prettier": "@wordpress/prettier-config"
 }
