@@ -270,6 +270,17 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"background": {
+			"backgroundAttachment": "scroll",
+			"backgroundImage": {
+				"id": 6,
+				"source": "file",
+				"title": "background",
+				"url": "http://windowsxp.local/wp-content/uploads/2025/03/background-scaled.webp"
+			},
+			"backgroundPosition": "50% 50%",
+			"backgroundSize": "cover"
+		},
 		"blocks": {
 			"core/button": {
 				"border": {
@@ -524,7 +535,7 @@
 					"text": "var(--wp--preset--color--contrast-2)"
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--archivo)",
+					"fontFamily": "var(--wp--preset--font-family--trebuchet)",
 					"fontStyle": "normal",
 					"fontWeight": "600",
 					"lineHeight": "1.1"
@@ -551,7 +562,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--basier-circle)",
+			"fontFamily": "var(--wp--preset--font-family--tahoma)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontStyle": "normal",
 			"fontWeight": "400",
