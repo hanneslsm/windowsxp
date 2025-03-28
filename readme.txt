@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-windowsxp is a custom the for StudioLeismann.com Created by hanneslsm in Sevilla
+A wordpress block theme, inspired by the Windows XP design. Just for fun.
 
 == Changelog ==
 
