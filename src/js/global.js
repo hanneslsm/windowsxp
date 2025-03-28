@@ -9,5 +9,3 @@ import './config/block-variations.js';
 /* Import Utilities */
 import './utilities/on-stuck.js';
 
-/* Import Prolooks Scripts */
-import './prolooks-spotlight.js';
