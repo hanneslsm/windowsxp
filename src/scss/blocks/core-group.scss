@@ -6,8 +6,9 @@
  * see also section styles
  */
 
-/* Block Style:
+/* Block Styles
 ============================================================== */
+
 div.is-style-xp-taskbar{
 	color: var(--wp--preset--color--base);
 	min-height: 30px;
@@ -21,4 +22,11 @@ div.is-style-xp-taskbar--notification-area{
     box-shadow: rgb(24, 187, 255) 1px 0px 1px inset;
     padding: 0px 10px;
     margin-left: 10px;
+}
+
+div.is-variation-notepad--content {
+	border-left: 1px solid #0831d9;
+    border-right: 1px solid #001ea0;
+	padding: 3px 20px;
+	background-color: white;
 }

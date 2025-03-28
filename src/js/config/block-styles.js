@@ -10,7 +10,8 @@ const blockStyles = [
 	{
 		block: 'core/group',
 		styles: [ { name: 'xp-taskbar', label: 'XP Taskbar' },
-			{ name: 'xp-taskbar--notification-area', label: 'XP Taskbar: Notification Area' } ],
+			{ name: 'xp-taskbar--notification-area', label: 'XP Taskbar: Notification Area' },
+			{ name: 'xp-notepad', label: 'XP Notepad' } ],
 	},
 ];
 
