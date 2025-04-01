@@ -1,6 +1,6 @@
 {
 	"name": "windowsxp",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"main": "index.js",
 	"scripts": {
 		"start": "wp-scripts start --config webpack.config.js --env development ",
