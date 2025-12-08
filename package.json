@@ -37,6 +37,7 @@
 		"webpack-remove-empty-scripts": "^1.0.4"
 	},
 	"dependencies": {
+		"cursor-effects": "^1.0.18",
 		"gsap": "^3.12.5"
 	},
 	"prettier": "@wordpress/prettier-config"
