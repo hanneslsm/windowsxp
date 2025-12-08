@@ -37,3 +37,8 @@ GNU General Public License for more details.
 
 Dieses Theme benutzt wp-scripts als build process.
 Siehe package.json
+
+
+=== Libraries ===
+
+https://github.com/tholman/cursor-effects
