@@ -10,5 +10,5 @@ import './config/block-variations.js';
 import './utilities/on-stuck.js';
 
 /* Import Cursor from npm */
-import { ghostCursor } from "cursor-effects";
-new ghostCursor({ element: document.querySelector(".wp-theme-windowsxp") });
+import { trailingCursor } from "cursor-effects";
+new trailingCursor({ element: document.querySelector(".wp-theme-windowsxp") });
